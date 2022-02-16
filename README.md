@@ -1,3 +1,4 @@
-# html_template
-html_template
-simpl html template allowing qwick start html page.
+# Frontend-cheat-list
+
+include:
+html, css, js, react
