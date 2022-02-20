@@ -1,20 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Template</title>
+    <title>Frontend cheat sheet</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-<div class="container">
-    <h3>Шаблон</h3>
-</div>
+    <footer>
+        <div class="container">
+            <h3 class="footer__title">Frontend cheat sheet</h3>
+        </div>
+    </footer>
 
 
-<script src="./js/main.js"></script>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="section__title">Array</h3>
+
+            <div class="boxItems">
+
+                <div class="boxItems__item boxItems__item_bg">Методы и свойсва массива</div>
+                <div class="boxItems__item boxItems__item_bg">Примеры</div>
+                <div class="boxItems__item boxItems__item_bg">Описание</div>
+            </div>
+            <div class="boxItems">
+
+                <div class="boxItems__item">
+                    <h3 class="boxItems__item_title">Методы сортировки массива</h3>
+                    <div class="boxItems__content">
+                        sort();
+                    </div>
+                </div>
+                <div class="boxItems__item">
+                    <code>
+              const arr = [6,12,8,26,112]; 
+                function compareNumber(a, b) { 
+            return a - b;
+               }
+    arr.sort(compareNumber); //6,12,8,26,112 
+    console.log(arr); //6,8,12,26,112
+            </code>
+
+                </div>
+                <div class="boxItems__item">
+                    <div class="boxItems__content">
+                        Метод sort();<br>
+                        сортирует массив по заданной в параметрах функции;
+                    </div>
+                </div>
+
+            </div>     
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h3 class="section__title">HTML</h3>
+
+            <div class="boxItems">
+
+                <div class="boxItems__item boxItems__item_bg">Тэги css стили</div>
+                <div class="boxItems__item boxItems__item_bg">Примеры</div>
+                <div class="boxItems__item boxItems__item_bg">Описание</div>
+            </div>
+            <div class="boxItems">
+
+                <div class="boxItems__item">
+                    <h3 class="boxItems__item_title">Вставка форматированного кода</h3>
+                    <div class="boxItems__content">
+                        &lt;code&gt; &lt;/code&gt; 
+                    </div>
+                </div>
+                <div class="boxItems__item">
+                    &lt;code&gt; <br>
+                    <code>
+                    function compareNumber(a, b) { 
+                        return a - b;
+                           }
+                    &lt;/code&gt; 
+                    </code>
+                </div>
+                <div class="boxItems__item">
+                    3</div>
+
+            </div>     
+        </div>
+    </section>
+
+
+
+    <script src="./js/main.js"></script>
 </body>
-</html>
 
+</html>

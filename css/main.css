@@ -17,7 +17,7 @@ div {
     width: 100%;
     max-width: 1200px;
     min-width: 480px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 a {
@@ -27,4 +27,40 @@ a {
 ul {
     list-style: none;
 }
+
+/*footer*/
+
+.footer__title {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/* section*/
+.section__title {
+    margin-top: 12px;
+}
+
+/*box box__item*/
+
+.boxItems {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boxItems__container {
+    margin: 600px;
+
+}
+
+.boxItems__item {
+    width: 32%;
+    border: 1px solid; 
+    margin: 6px 0;
+    padding: 4px;
+}
+
+.boxItems__item_bg {
+    background: #add; 
+}
+
 
